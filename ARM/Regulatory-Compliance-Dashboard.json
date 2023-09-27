@@ -1,18 +1,14 @@
 {
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
   "contentVersion": "0.9.3.0",
-  "parameters": {
-    "location": {
-      "type": "string"
-    }
-  },
+  "parameters": { },
   "variables": {},
   "resources": [
     {
       "type": "microsoft.insights/workbooks",
       "apiVersion": "2022-04-01",
       "name": "aa16f2f4-3c70-4eae-b7f0-7fab609f38e9",
-      "location": "[parameters('location')]",
+      "location": "",
       "tags": {
         "hidden-title": "Regulatory Compliance Dashboard"
       },
